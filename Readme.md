@@ -56,8 +56,8 @@ Due to the use of scanned PDFs, two tools must be installed on your operating sy
 
 Place your contracts and templates into the root directory of the repository:
 
-  * **`Contracts/` folder:** Place your 5 TN and 5 WA contract PDFs (e.g., `TN_Contract_1.pdf`).
-  * **`Standard Templates/` folder:** Place your 2 template PDFs (e.g., `TN_Standard_Template.pdf`).
+  * **`Contracts/` folder:** Place your 5 TN and 5 WA contract PDFs (`TN_Contract_1.pdf`,`WA_Contract_1.pdf`).
+  * **`Standard Templates/` folder:** Place your 2 template PDFs (`TN_Standard_Template.pdf`,`WA_Standard_Template.pdf`).
 
 #### D. Running the Solution End-to-End
 

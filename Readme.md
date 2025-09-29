@@ -1,6 +1,5 @@
 # HiLabs Hackathon: Intelligent Contract Classification System
 
-
 ### Project Overview
 
 This solution addresses the HiLabs Hackathon challenge to build an AI-powered system that automates the review and classification of crucial clauses within healthcare provider contracts. The system processes masked contracts from two markets (TN and WA) and determines if key terms are **Standard** or **Non-Standard** based on organizational policies.
@@ -17,23 +16,7 @@ Our solution is built on three modular Python files, ensuring clear separation o
 | **2. Classification Engine** | `compare_clauses.py` | Calculates **Semantic Similarity** (TF-IDF/Cosine) and applies stringent **Business Rules** to assign the final Standard/Non-Standard classification
 | **3. Reporting** | `main.py` / `dashboard.py` | Orchestrates the pipeline, generates summary metrics, and provides the interactive demo interface.
 
-### 2\. Analytical Decision & Core Classification Logic
-
-Our classification logic is designed to be analytically accurate, specifically addressing the high-risk "Structural Change" rule.
-
-#### A. The Timely Filing Fix (Critical Deviation)
-
-The problem states that any structural or conditional change results in a **Non-Standard** classification. Our system implements a **Strict Structural Override** to enforce this for high-risk attributes:
-
-  * **Logic:** For **Medicaid** or **Medicare Timely Filing** clauses, the system first verifies that the extracted day count ($90$ or $365$) **is exactly equal** to the standard day count ($90$ or $120$).
-
-#### B. The Fee Schedule Fix (Value Substitution)
-
-The problem states that simple **Value Substitution** (like a changed percentage, e.g., $95\%$ vs $100\%$) is **Still Standard**.
-
-  * **Logic:** If the clause is a Fee Schedule and the strict structural check passes (or is not applicable), the system classifies the clause as **Standard** if its similarity score is above the moderate threshold ($\ge 0.70$).
-
-### 3\. Setup and Execution Instructions
+### 2\. Setup and Execution Instructions
 
 #### A. Prerequisites (System Tools)
 
@@ -89,7 +72,7 @@ Place your contracts and templates into the root directory of the repository:
     ```bash
     streamlit run dashboard.py
     ```
-### 4\. Analysis Results and Summary Metrics
+### 3\. Analysis Results and Summary Metrics
 The system successfully processed all 10 contracts from TN and WA, resulting in the following overall performance metrics:
 
 Total Contracts Processed:  10

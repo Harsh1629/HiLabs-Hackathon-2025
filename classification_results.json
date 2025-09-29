@@ -1,0 +1,464 @@
+{
+    "TN_Contract_1": {
+        "state": "TN",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 0.7256724890388145,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.73."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 0.7256724890388145,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.73."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "Tennessee Enterprise Provider Agreement \u00a9 2022 June - Tennessee, Inc. 02/13/2023 3 # Participating Providers (a \"Health Services Designated Network\"), as determined by Provider agrees to refer Members to such designated Participating Providers in a Health Services Designated Network for the provision of certain Health Services, even if Provider performs such services.",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Non-Standard",
+                "score": 0.3119472603891779,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "LAB services not specified on the Reference Laboratory Fee Schedule are not reimbursable.",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Non-Standard",
+                "score": 0.11882141886311998,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the ACS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 0.8434420457763694,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.84."
+            }
+        }
+    },
+    "TN_Contract_2": {
+        "state": "TN",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 0.9999999999999998,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the ACS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Non-Standard",
+                "score": 0.13137427241680077,
+                "reason": "Initial classification or low base similarity."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means an institution, facility, agency, physician, health care practitioner, or other entity that is licensed or otherwise authorized to provide any of the Covered Services in the state in which they are furnished and that is party to an agreement to provide Covered Services to Members that has met all applicable required credentialing requirements and accreditation requirements for the services the Participating Provider provides, and that is designated by to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Compensation Schedule (\"ACS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 0.8412762030270243,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.84."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the ACS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 0.8434420457763694,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.84."
+            }
+        }
+    },
+    "TN_Contract_3": {
+        "state": "TN",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 0.9999999999999998,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the WCS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Non-Standard",
+                "score": 0.137522419872406,
+                "reason": "Initial classification or low base similarity."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means an institution, facility, agency, physician, health care practitioner, or other entity that is licensed or otherwise authorized to provide any of the Covered Services in the state in which they are furnished and that is party to an agreement to provide Covered Services to Members that has met all applicable required credentialing requirements and accreditation requirements for the services the Participating Provider provides, and that is designated by to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Compensation Schedule (\"WCS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the WCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 0.8714955110179123,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.87."
+            }
+        }
+    },
+    "TN_Contract_4": {
+        "state": "TN",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 0.9999999999999998,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the ACS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Non-Standard",
+                "score": 0.137522419872406,
+                "reason": "Initial classification or low base similarity."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means an institution, facility, agency, physician, health care practitioner, or other entity that is licensed or otherwise authorized to provide any of the Covered Services in the state in which they are furnished and that is party to an agreement to provide Covered Services to Members that has met all applicable required credentialing requirements and accreditation requirements for the services the Participating Provider provides, and that is designated by to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Compensation Schedule (\"ACS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 0.9505862224808108,
+                "reason": "High structural and value alignment (0.95). Passed Semantic Check."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the ACS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 0.8434420457763694,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.84."
+            }
+        }
+    },
+    "TN_Contract_5": {
+        "state": "TN",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 0.9999999999999998,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the ACS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Non-Standard",
+                "score": 0.137522419872406,
+                "reason": "Initial classification or low base similarity."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means an institution, facility, agency, physician, health care practitioner, or other entity that is licensed or otherwise authorized to provide any of the Covered Services in the state in which they are furnished and that is party to an agreement to provide Covered Services to Members that has met all applicable required credentialing requirements and accreditation requirements for the services the Participating Provider provides, and that is designated by to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Compensation Schedule (\"ACS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 0.9505862224808108,
+                "reason": "High structural and value alignment (0.95). Passed Semantic Check."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the ACS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 0.8434420457763694,
+                "reason": "Passed Value Substitution (moderate similarity, core structure intact). Score: 0.84."
+            }
+        }
+    },
+    "WA_Contract_1": {
+        "state": "WA",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to Plan, using appropriate and current Coded Service Identifier(s), within three hundred sixty-five (365) days from the date the Health Services are rendered or Plan may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the PCS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means a person, including but not limited to, a physician or other health care professional or entity, including but not limited to a hospital, health care facility, a partnership of such professionals, or a professional corporation, or an employee or subcontractor of such person or entity, that is party to an agreement to provide Covered Services to Members that has met all applicable required Plan credentialing requirements, standards of participation and accreditation requirements for the services the Participating Provider provides, and that is designated by Plan to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Non-Standard",
+                "score": 0.16377172176060412,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Plan Compensation Schedule (\"PCS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the PCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            }
+        }
+    },
+    "WA_Contract_2": {
+        "state": "WA",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to Plan, using appropriate and current Coded Service Identifier(s), within three hundred sixty-five (365) days from the date the Health Services are rendered or Plan may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the PCS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means a person, including but not limited to, a physician or other health care professional or entity, including but not limited to a hospital, health care facility, a partnership of such professionals, or a professional corporation, or an employee or subcontractor of such person or entity, that is party to an agreement to provide Covered Services to Members that has met all applicable required Plan credentialing requirements, standards of participation and accreditation requirements for the services the Participating Provider provides, and that is designated by Plan to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Non-Standard",
+                "score": 0.16377172176060412,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Plan Compensation Schedule (\"PCS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the PCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            }
+        }
+    },
+    "WA_Contract_3": {
+        "state": "WA",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to Plan, using appropriate and current Coded Service Identifier(s), within three hundred sixty-five (365) days from the date the Health Services are rendered or Plan may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the PCS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means a person, including but not limited to, a physician or other health care professional or entity, including but not limited to a hospital, health care facility, a partnership of such professionals, or a professional corporation, or an employee or subcontractor of such person or entity, that is party to an agreement to provide Covered Services to Members that has met all applicable required Plan credentialing requirements, standards of participation and accreditation requirements for the services the Participating Provider provides, and that is designated by Plan to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Non-Standard",
+                "score": 0.16377172176060412,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Plan Compensation Schedule (\"PCS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the PCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            }
+        }
+    },
+    "WA_Contract_4": {
+        "state": "WA",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to Plan, using appropriate and current Coded Service Identifier(s), within three hundred sixty-five (365) days from the date the Health Services are rendered or Plan may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the PCS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means a person, including but not limited to, a physician or other health care professional or entity, including but not limited to a hospital, health care facility, a partnership of such professionals, or a professional corporation, or an employee or subcontractor of such person or entity, that is party to an agreement to provide Covered Services to Members that has met all applicable required Plan credentialing requirements, standards of participation and accreditation requirements for the services the Participating Provider provides, and that is designated by Plan to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Non-Standard",
+                "score": 0.16377172176060412,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Reference Laboratory Fee Schedule\" means the Rate that is the Reference Laboratory Fee Schedule that is based on the Medicare Fee Schedule and may contain additional CPT/HCPCS codes.",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Non-Standard",
+                "score": 0.22339160242408707,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the PCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Standard",
+                "score": 1.0000000000000018,
+                "reason": "High structural and value alignment (1.00). Passed Semantic Check."
+            }
+        }
+    },
+    "WA_Contract_5": {
+        "state": "WA",
+        "is_template": false,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Except to the extent Provider is compensated on a capitation basis under this Agreement, Provider shall submit claims on either a current CMS-1500 claim form for professional claims or a CMS-1450 claim form for institutional claims (or successor forms), or the electronic equivalent in the manner and to the location described in the Provider Manual.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Non-Standard",
+                "score": 0.2780596416031727,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "NOT FOUND",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility.",
+                "classification": "Non-Standard",
+                "score": 0.0,
+                "reason": "Clause was not successfully extracted from the document."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "Washington, Inc. PARTICIPATING PROVIDER AGREEMENT For Physician, and Facility Providers",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and",
+                "classification": "Non-Standard",
+                "score": 0.41058431203957585,
+                "reason": "Initial classification or low base similarity."
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "NOT FOUND",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service.",
+                "classification": "Non-Standard",
+                "score": 0.0,
+                "reason": "Clause was not successfully extracted from the document."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "(a) Covered Services furnished to members of certain out-of-state entities affiliated with including, without limitation, other corporations (\"Affiliates\"), shall be paid in accordance with the rates set forth in this Agreement or such other rates established by the Affiliate's state Program governing care to out-of-state members.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services.",
+                "classification": "Non-Standard",
+                "score": 0.251041412828692,
+                "reason": "Initial classification or low base similarity."
+            }
+        }
+    },
+    "TN_Standard_Template": {
+        "state": "TN",
+        "is_template": true,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "\"Participating Provider\" means a An institution, facility, agency, physician, health care practitioner, or other entity that is licensed or otherwise authorized to provide any of the Covered Services in the state in which they are furnished and that is party to an agreement to provide Covered Services to Members that has met all applicable required credentialing requirements and accreditation requirements for the services the Participating Provider provides, and that is designated by to participate in one or more Network(s).",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and"
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Compensation Schedule (\"WCS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "[Contraxx ID #] for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the WCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services."
+            }
+        }
+    },
+    "WA_Standard_Template": {
+        "state": "WA",
+        "is_template": true,
+        "attributes": {
+            "Medicaid Timely Filing": {
+                "extracted_text": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to Plan, using appropriate and current Coded Service Identifier(s), within three hundred sixty-five (365) days from the date the Health Services are rendered or Plan may refuse payment.",
+                "standard_wording": "Unless otherwise instructed, or required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within one hundred twenty (120) days from the date the Health Services are rendered or may refuse payment. If is the secondary payor, the one hundred twenty (120) day period will not begin until Provider receives notification of primary payor's responsibility."
+            },
+            "Medicare Timely Filing": {
+                "extracted_text": "comply with all pertinent aspects of submission and payment including, but not limited to, contractual terms, Regulatory Requirements, Coded Service Identifiers (as defined in the PCS) guidelines and instructions, medical policies and clinical utilization management guidelines, reimbursement policies, and generally accepted medical practices.",
+                "standard_wording": "Unless otherwise instructed in the provider manual(s) or Policies applicable to Medicare Advantage Program, or unless required by Regulatory Requirements, Provider shall submit Claims to using appropriate and current Coded Service Identifier(s), within ninety (90) days from the date the Health Services are rendered or will refuse payment. If is the secondary payor, the ninety (90) day period will not begin until Provider receives notification of primary payor's responsibility."
+            },
+            "No Steerage/SOC": {
+                "extracted_text": "[###########] [MM/DD/YYYY] WASHINGTON, INC. PROVIDER AGREEMENT This Provider Agreement (hereinafter \"Agreement\") is made and entered into by and between Washington, Inc. (hereinafter \" and [____________________], (\"Provider\") on behalf of itself and the Participating Providers set forth on the Participating Providers Exhibit and shall be effective as of the date set forth immediately above signature (the \"Effective Date\").",
+                "standard_wording": "Provider shall be eligible to participate only in those Networks designated on the Provider Networks Attachment of this Agreement. Provider shall not be recognized as a Participating Provider in such Networks until the later of: 1) the Effective Date of this Agreement or; 2) as determined by in its sole discretion, the date Provider has met applicable credentialing requirements and accreditation requirements. Provider acknowledges that may develop,discontinue, or modify new or existing Networks, products and/or programs. In addition to those Networks designated on the Provider Networks Attachment, may also identify Provider as a Participating Provider in additional Networks, products and/or programs designated in writing from time to time by The terms and conditions of Provider's participation as a Participating Provider in such additional Networks, products and/or programs shall be on the terms and conditions as set forth in thisAgreement unless otherwise agreed to in writing by Provider and"
+            },
+            "Medicaid Fee Schedule": {
+                "extracted_text": "Rate\" means the lesser of one hundred percent (100%) of Eligible Charges for Covered Services, or the total reimbursement amount that Provider and have agreed upon as set forth in the Plan Compensation Schedule (\"PCS\").",
+                "standard_wording": "For purposes of determining the \u2588\u2588\u2588\u2588\u2588 Rate, the total reimbursement amount that Provider and \u2588\u2588\u2588\u2588\u2588 have agreed upon for the applicable provider type(s) for Covered Services provided under this Agreement shall be one hundred percent (100%) of the \u2588\u2588\u2588\u2588\u2588 Professional Provider Market Master Fee Schedule A in effect on the date of service."
+            },
+            "Medicare Fee Schedule": {
+                "extracted_text": "During such continuation period, Provider agrees to: (i) accept reimbursement from for all Covered Services furnished hereunder in accordance with this Agreement and at the rates set forth in the PCS attached hereto; and (ii) adhere to Policies, including but not limited to, Policies regarding quality assurance requirements, referrals, pre-authorization and treatment planning.",
+                "standard_wording": "For Covered Services furnished by or on behalf of Provider for a Member enrolled in a Medicare Advantage Network, Provider agrees to accept an amount that is the lesser of Eligible Charges or the Medicare Advantage Rate, minus applicable Cost Shares, and modified before payment as described below. Provider agrees that this amount, plus applicable Cost Shares, is full compensation for Covered Services."
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+PyMuPDF
+pandas
+spacy
+scikit-learn
+pdf2image
+Pillow
+pytesseract
+streamlit

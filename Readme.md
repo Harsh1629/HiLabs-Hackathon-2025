@@ -11,8 +11,8 @@ This project implements the mandatory **Three-Layer High-Level Architecture**
 
 Our solution is built on three modular Python files, ensuring clear separation of concerns, high maintainability, and fulfilling the modularity requirement
 
-| Layer | Module | Core Functionality | Score Contribution |
-| :--- | :--- | :--- | :--- |
+| Layer | Module | Core Functionality 
+| :--- | :--- | :--- 
 | **1. Data Processing** | `extract_clauses.py` | Handles **OCR** (for scanned PDFs) and uses **refined keywords** to find and extract the 5 required attributes from the contracts
 | **2. Classification Engine** | `compare_clauses.py` | Calculates **Semantic Similarity** (TF-IDF/Cosine) and applies stringent **Business Rules** to assign the final Standard/Non-Standard classification
 | **3. Reporting** | `main.py` / `dashboard.py` | Orchestrates the pipeline, generates summary metrics, and provides the interactive demo interface.
@@ -78,7 +78,7 @@ Place your contracts and templates into the root directory of the repository:
 
 #### D. Running the Solution End-to-End
 
-1.  **Run the Backend Pipeline:** This step processes the PDFs, classifies all clauses, and generates the required JSON report and Summary Metrics[cite: 154].
+1.  **Run the Backend Pipeline:** This step processes the PDFs, classifies all clauses, and generates the required JSON report and Summary Metrics.
 
     ```bash
     python main.py
@@ -89,6 +89,17 @@ Place your contracts and templates into the root directory of the repository:
     ```bash
     streamlit run dashboard.py
     ```
+### 4\. Analysis Results and Summary Metrics
+The system successfully processed all 10 contracts from TN and WA, resulting in the following overall performance metrics:
 
------
+Total Contracts Processed:  10
 
+Total Clauses Classified:  50
+
+Contracts with at least one Non-Standard Clause:  10
+
+Classification Totals
+
+    → Standard:  34
+
+    → Non-Standard:  16
